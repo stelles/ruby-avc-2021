@@ -5,7 +5,6 @@ class Fishes
   end
 
   def fish_fuckin!
-    before = @fish_count.clone
     nf = @fish_count[0]
     (1..8).each do |c|
       @fish_count[c - 1] = @fish_count[c]
